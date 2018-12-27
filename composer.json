@@ -1,0 +1,26 @@
+{
+    "name": "elementareteilchen/contrast",
+    "type": "typo3-cms-extension",
+    "description": "view helpers to add contrast link to pages",
+    "license": [
+        "GPL-2.0+"
+    ],
+    "require": {
+        "typo3/cms-core": ">=8.7.0",
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ElementareTeilchen\\Contrast\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+    },
+    "authors": [
+        {
+            "name": "Franz Kugelmann",
+            "email": "franz.kugelmann@elementare-teilchen.de",
+            "homepage": "http://www.elementare-teilchen.de/"
+        }
+    ]
+}
